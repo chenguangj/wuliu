@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- Background -->
-  <rect width="32" height="32" fill="#1e1c1a"/>
-  <!-- Left half: "GG" in warm white -->
+  <!-- Left half: dark -->
   <rect x="0" y="0" width="16" height="32" fill="#1e1c1a"/>
-  <!-- Right half: "XT" accent block -->
+  <!-- Right half: warm white -->
   <rect x="16" y="0" width="16" height="32" fill="#f0ede8"/>
-  <!-- Letter G (left side) -->
-  <text x="3" y="22" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#f0ede8">GG</text>
-  <!-- Letter XT (right side) -->
-  <text x="17" y="22" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#1e1c1a">XT</text>
+  <!-- Center divider accent -->
+  <rect x="14" y="0" width="4" height="32" fill="#1e1c1a"/>
+  <!-- Top-left corner mark -->
+  <rect x="3" y="3" width="6" height="6" fill="#f0ede8"/>
+  <!-- Bottom-right corner mark -->
+  <rect x="23" y="23" width="6" height="6" fill="#1e1c1a"/>
 </svg>

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "Legal reasoning compliance review for every cross-border shipment across UAE + 23 MENA countries. Not a database lookup — full AI legal text reasoning. Arabic + English bilingual documents.",
   generator: "v0.app",
   icons: {
-    icon: "/favicon.svg",
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     apple: "/apple-icon.png",
   },
 };
