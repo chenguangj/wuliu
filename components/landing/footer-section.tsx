@@ -96,7 +96,7 @@ export function FooterSection() {
 
         <div className="px-6 lg:px-12 py-5 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-[11px] font-mono uppercase tracking-widest text-[#f0ede8]/25">
-            © 2025 GGXT. All rights reserved. Dubai, UAE.
+            © 2026 GGXT EXPRESS CARGO L.L.C
           </p>
           <div className="flex items-center gap-2 text-[11px] font-mono uppercase tracking-widest text-[#f0ede8]/25">
             <span className="w-1.5 h-1.5 rounded-full bg-[#b8c9a0]" />
