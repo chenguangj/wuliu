@@ -65,15 +65,13 @@ export function FooterSection() {
                 { name: "Twitter", href: "https://twitter.com" },
                 { name: "GitHub", href: "https://github.com" },
               ].map((item, i) => (
-                <a
+                <div
                   key={item.name}
-                  href={item.href}
-                  target="_blank"
                   rel="noopener noreferrer"
                   className={`px-4 py-2.5 text-[11px] font-mono uppercase tracking-widest text-[#f0ede8]/40 hover:text-[#f0ede8] hover:bg-[#f0ede8]/5 transition-colors duration-150 flex items-center gap-1 ${i < 2 ? "border-r border-[#f0ede8]/10" : ""}`}
                 >
                   {item.name}
-                </a>
+                </div>
               ))}
             </div>
           </div>
