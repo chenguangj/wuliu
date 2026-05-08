@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Left half: dark -->
+  <rect x="0" y="0" width="16" height="32" fill="#1e1c1a"/>
+  <!-- Right half: warm white -->
+  <rect x="16" y="0" width="16" height="32" fill="#f0ede8"/>
+  <!-- Center divider accent -->
+  <rect x="14" y="0" width="4" height="32" fill="#1e1c1a"/>
+  <!-- Top-left corner mark -->
+  <rect x="3" y="3" width="6" height="6" fill="#f0ede8"/>
+  <!-- Bottom-right corner mark -->
+  <rect x="23" y="23" width="6" height="6" fill="#1e1c1a"/>
+</svg>
