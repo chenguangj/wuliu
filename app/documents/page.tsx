@@ -152,7 +152,7 @@ export default function DocumentsPage() {
       </section>
 
       {/* Document browser */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="browser" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8 flex items-end justify-between gap-6">
             <div>
@@ -242,7 +242,7 @@ export default function DocumentsPage() {
       </section>
 
       {/* Bilingual sample */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="bilingual" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8">
             <span className="text-[11px] font-mono uppercase tracking-widest text-[#9e9890] block mb-2">
@@ -270,7 +270,7 @@ export default function DocumentsPage() {
       </section>
 
       {/* Validation checks */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="validation" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8">
             <span className="text-[11px] font-mono uppercase tracking-widest text-[#9e9890] block mb-2">
@@ -296,7 +296,7 @@ export default function DocumentsPage() {
       </section>
 
       {/* Why Arabic matters */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="arabic" className="border-b border-[#d0ccc5]">
         <div className="max-w-[1400px] mx-auto">
           <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[#d0ccc5] border-b border-[#d0ccc5]">
             {[

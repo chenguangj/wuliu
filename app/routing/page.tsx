@@ -139,7 +139,7 @@ export default function RoutingPage() {
       </section>
 
       {/* Route selector */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="analysis" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8 flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div>
@@ -253,7 +253,7 @@ export default function RoutingPage() {
       </section>
 
       {/* Comparison matrix */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="matrix" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8">
             <span className="text-[11px] font-mono uppercase tracking-widest text-[#9e9890] block mb-2">
@@ -294,7 +294,7 @@ export default function RoutingPage() {
       </section>
 
       {/* Token breakdown per route */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="tokens" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8">
             <span className="text-[11px] font-mono uppercase tracking-widest text-[#9e9890] block mb-2">

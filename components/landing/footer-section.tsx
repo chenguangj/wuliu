@@ -3,30 +3,27 @@
 import { Mail } from "lucide-react";
 
 const footerLinks = {
-  Product: [
-    { name: "Compliance Review", href: "/compliance" },
-    { name: "Route Decision", href: "/routing" },
-    { name: "Document Generation", href: "/documents" },
-    { name: "Coverage Map", href: "/coverage" },
-    { name: "Pricing", href: "/#pricing" },
+  Compliance: [
+    { name: "Live Review Walkthrough", href: "/compliance#walkthrough" },
+    { name: "Regulation Source Status", href: "/compliance#sources" },
+    { name: "Why Long Context", href: "/compliance#context" },
   ],
-  Developers: [
-    { name: "API Integration", href: "/#developers" },
-    { name: "Token Breakdown", href: "/#features" },
-    { name: "Case Study", href: "/#how-it-works" },
-    { name: "Platform Metrics", href: "/#metrics" },
+  "Route Decision": [
+    { name: "Route Analysis", href: "/routing#analysis" },
+    { name: "Comparison Matrix", href: "/routing#matrix" },
+    { name: "Token Breakdown", href: "/routing#tokens" },
   ],
-  Resources: [
-    { name: "Customer Results", href: "/#testimonials" },
-    { name: "Infrastructure", href: "/#infrastructure" },
-    { name: "Country Directory", href: "/coverage" },
-    { name: "Why Claude", href: "/#security" },
+  Documents: [
+    { name: "Generated Documents", href: "/documents#browser" },
+    { name: "Bilingual Preview", href: "/documents#bilingual" },
+    { name: "Validation Checks", href: "/documents#validation" },
+    { name: "Why Arabic Matters", href: "/documents#arabic" },
   ],
-  Company: [
+  Coverage: [
+    { name: "Country Directory", href: "/coverage#directory" },
+    { name: "Recent Updates", href: "/coverage#updates" },
+    { name: "Patrol Mechanics", href: "/coverage#patrol" },
     { name: "Contact Us", href: "/contact" },
-    { name: "Request Demo", href: "/#how-it-works" },
-    { name: "Careers", href: "/#metrics", badge: "Hiring" },
-    { name: "business@ggxtonline.com", href: "mailto:business@ggxtonline.com" },
   ],
 };
 
@@ -34,7 +31,7 @@ export function FooterSection() {
   return (
     <footer className="relative bg-[#1e1c1a] text-[#f0ede8]">
       <div className="max-w-[1400px] mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-7 border-b border-[#f0ede8]/10">
+        <div className="grid grid-cols-2 md:grid-cols-6 border-b border-[#f0ede8]/10">
           <div className="col-span-2 p-10 border-b md:border-b-0 md:border-r border-[#f0ede8]/10">
             <a href="/" className="inline-flex items-center gap-0 mb-6">
               <span className="text-xl font-display font-bold">GG</span>

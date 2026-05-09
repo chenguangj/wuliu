@@ -109,7 +109,7 @@ export default function CoveragePage() {
       </section>
 
       {/* Country directory */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="directory" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
@@ -200,7 +200,7 @@ export default function CoveragePage() {
       </section>
 
       {/* Recent regulation updates */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="updates" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8 flex items-end justify-between gap-6">
             <div>
@@ -243,7 +243,7 @@ export default function CoveragePage() {
       </section>
 
       {/* Patrol mechanics */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="patrol" className="border-b border-[#d0ccc5]">
         <div className="max-w-[1400px] mx-auto">
           <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[#d0ccc5] border-b border-[#d0ccc5]">
             {[

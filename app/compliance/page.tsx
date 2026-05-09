@@ -144,7 +144,7 @@ export default function CompliancePage() {
       </section>
 
       {/* Live check walkthrough */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="walkthrough" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8 flex items-end justify-between gap-6">
             <div>
@@ -224,7 +224,7 @@ export default function CompliancePage() {
       </section>
 
       {/* Regulation source status */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="sources" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8">
             <span className="text-[11px] font-mono uppercase tracking-widest text-[#9e9890] block mb-2">
@@ -256,7 +256,7 @@ export default function CompliancePage() {
       </section>
 
       {/* How it works */}
-      <section className="border-b border-[#d0ccc5]">
+      <section id="context" className="border-b border-[#d0ccc5]">
         <div className="border-b border-[#d0ccc5] bg-[#f2f0ec]">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8">
             <span className="text-[11px] font-mono uppercase tracking-widest text-[#9e9890] block mb-2">
